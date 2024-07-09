@@ -43,9 +43,6 @@ use types::{CallLog, CallTrace, CallTraceStep};
 
 mod utils;
 
-mod writer;
-pub use writer::TraceWriter;
-
 #[cfg(feature = "js-tracer")]
 pub mod js;
 
